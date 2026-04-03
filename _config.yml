@@ -1,3 +1,7 @@
-theme: jekyll-theme-minimal
-title: Nauman Ibrahim's homepage
-description: I post public information about myself and my work here.
+theme: minima
+title: Nauman Ibrahim
+description: Ph.D. candidate in physics at the University of Mississippi, working on Causal Set Theory.
+header_pages:
+  - about.md
+  - cv.md
+  - contact.md
