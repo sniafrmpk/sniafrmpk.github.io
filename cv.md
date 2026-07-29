@@ -6,35 +6,37 @@ permalink: /cv
 
 ## Education
 
-- **Ph.D. Candidate in Physics**, University of Mississippi, USA (Feb 2022 -- present)
+- **Ph.D. Physics**, University of Mississippi, USA (Feb 2022 -- June 2026)
   - Advisor: Dr. Luca Bombelli
-- **M.A. Physics**, University of Mississippi, USA (Aug 2019 -- May 2023)
+- **M.A. Physics**, University of Mississippi, USA (Aug 2019 -- Feb 2022)
 - **B.S. Physics**, Lahore University of Management Sciences (LUMS), Pakistan (Aug 2013 -- Jul 2017)
   - Undergraduate Advisor: Dr. Adam Zaman
 
 ## Research
 
 **Modeling Plane Gravitational Waves in Causal Set Theory** (Jan 2024 -- present)
-Developing an expression for the Weyl tensor via geodesic deviation due to a plane gravitational wave in a causal set. Implemented sprinklings in gravitational wave spacetimes by determining causal relations through the norm of tangent vectors of geodesics connecting pairs of points within convex neighborhoods.
+CST has discrete analogs for the Ricci scalar and the Einstein--Hilbert action, but none for the Weyl tensor — the non-trace part of the curvature, and a long-standing gap in the programme. Pursuing one via geodesic deviation in causal sets sprinkled into plane gravitational-wave spacetimes produced two results: a method for determining causal relations in such spacetimes from coordinates alone — previously available only for conformally flat spacetimes, and what makes gravitational-wave causal sets simulable at all — and a feasibility bound showing that resolving the Weyl signal by this route would need on the order of 10^8 elements, beyond current computational reach.
 
-**Analyzing the Thickness of Discrete Geodesics in CST** (Dec 2024 -- present)
-Studying the transverse distribution of longest paths between two elements (discrete geodesics) and how to define separations when geodesics are non-unique. Observed tube-like collections of paths resembling ellipsoids and identified a power-law decrease in fractional thickness with N. Scaled to N > 1.6 million using graph algorithms and memory-efficient bit-packed storage. Paper in preparation.
+**Analyzing the Thickness of Discrete Geodesics in CST** (Dec 2024 -- Feb 2026)
+The discrete analog of a timelike geodesic — the longest chain between two elements — is not unique, and the family of longest chains carries a spatial spread that continuum geodesics do not have. Measuring this "thickness" for sprinklings in Minkowski spacetime gives a transverse spread scaling as H^0.56 with the height H of the causal interval in 4D, obtained for intervals of more than 1.6 million elements using a bespoke edge-relaxation algorithm and a bit-packed representation of the relations matrix. The problem is Poissonian last-passage percolation in disguise, placing it in the KPZ universality class, where 0.56 is the transversal fluctuation exponent — known rigorously only in 1+1 dimensions, where it is 2/3. Paper in preparation.
 
 **Action-Based Approaches to Classical Dynamics** (Mar 2022 -- Nov 2023)
-Explored whether dynamical laws for generic classical systems can be formulated using only the action without reference to local variables, motivated by challenges defining Hamiltonians in causal sets. Investigated Weiss variation, Hamilton--Jacobi formalism, time-nonlocal Lagrangians, and Synge's world function.
+Existing frameworks for the classical growth of causal sets rely on stochastic rules and do not guarantee manifold-like causal sets; causal sets also lack a well-defined spatial hypersurface, which rules out Hamiltonian dynamics. This project explored whether growth could instead be dictated by the action alone, without reference to a Hamiltonian, Lagrangian, or local variables, drawing on Weiss variation, the Hamilton--Jacobi formalism, and dynamics for non-local Lagrangians.
 
 **Quantum Zeno Effect in a Two-Level System Coupled to Multiple Environments** (Jul 2018 -- Mar 2019)
 With Dr. Adam Zaman: analyzed decay rates of a two-level system simultaneously coupled to both strongly and weakly interacting oscillator baths across parameter regimes, using the polaron transformation and perturbation theory in the transformed frame.
 
 ## Publications
 
-- **The Thickness of Timelike Geodesics in Causal Sets**, with L. Bombelli. In preparation (Dec 2025).
+- **Geodesic Deviation in Gravitational-Wave Causal Sets: Thickness of Geodesic Analogs and the Weyl Tensor**, with L. Bombelli. In preparation (July 2026).
 
 ## Conferences and Invited Seminars
 
+- Gulf Coast Gravity Meeting, Troy University, Troy, AL (April 2026)
+- APS Global Summit, Denver, CO (March 2026)
+- Virtual Causal Set Seminar (February 2026)
 - Invited seminar, Mathematical Physics Group, University of California, Davis (June 2025)
 - Pacific Coast Gravity Meeting, Cal. State -- Fullerton (April 2025)
-- Gulf Coast Gravity Meeting, University of Mississippi, Oxford (April 2025)
 
 ## Teaching
 
@@ -66,6 +68,7 @@ Supervised a project on generating Schwarzschild geodesics using finite-differen
 
 - **Programming:** Python (Numba + multitasking), Mathematica, LaTeX, Julia
 - **Computing:** High-performance computing at the Mississippi Center for Supercomputing Research
+- **Observing:** Telescope handling, including the 15-inch "Grubb" refractor (1892), 12-inch Meade reflector, and 7-inch Questar reflector
 
 ## Service
 
